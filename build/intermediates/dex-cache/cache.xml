@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\hecto\AndroidStudioProjects\Android-Sliding-Tabs-And-Navigation-Drawer-With-Material-Design-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\hecto\AndroidStudioProjects\Android-Sliding-Tabs-And-Navigation-Drawer-With-Material-Design-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fb661658f31ee5f2ab575c4154d503376da265e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\hecto\AndroidStudioProjects\Android-Sliding-Tabs-And-Navigation-Drawer-With-Material-Design-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="641e0e4c65b1ce8c5a43233238e4f596476312d8">
+        <dex dex="C:\Users\hecto\AndroidStudioProjects\Android-Sliding-Tabs-And-Navigation-Drawer-With-Material-Design-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5cec58b63ddd8880efea4a950a901864328bc7ff\classes.dex" />
+    </item>
+
+</items>

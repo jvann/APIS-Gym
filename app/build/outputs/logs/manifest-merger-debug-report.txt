@@ -1,0 +1,208 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\0853e4b5cc23e9968809ff96838d87f5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:mediarouter-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.1.aar\a224f82fc59cae5afe9a5df583a09290\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\01b4588c45b8e786b736927683ec18b2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\97a338815ef6ab4c8883321a37d504b1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\12ea6bbd3cb79a531077ce52c87ce50f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\7b292443f35b8c1b4a1f11667dc8ba97\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\9f958293132263e57fb15d5a97749331\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\56adba0f49a19a01d7c453535742c9aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\068e6a050f26df0baa2d91c6318e0981\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\58c4ff2473de1939ce34700be4682eec\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\40872898825166f89faf00d3ae1ba24d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\a87855633eabb4e42de750fcd6370645\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7127476920fd05113495ca0719833c42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fca4a99cce721c7561974adef4127ce7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\64f2920d977a7307897c9e1b9dd09881\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ce42f9f1071f68f6fa68495bd032f386\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c8997a58a2a7e93c38ca90c93bbb8dc8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\67caa550386aed24b55607029b816127\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\0787e13960036007ff5ce8d230084584\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\07d39e046fec539ff64d3061d0d1e3c6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cf65944f9688f65b383e2bb708841d84\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+	package
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:1-57:12
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:8:22-69
+application
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:10:5-55:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\97a338815ef6ab4c8883321a37d504b1\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\97a338815ef6ab4c8883321a37d504b1\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:13:9-41
+	android:icon
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:14:9-40
+activity#com.rtu.gymforbeginners.MainActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:15:9-23:20
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:17:13-45
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.rtu.gymforbeginners.WorkoutActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:24:9-53
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:24:19-50
+activity#com.rtu.gymforbeginners.SignupActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:25:9-52
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:25:19-49
+activity#com.rtu.gymforbeginners.ProfileActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:26:9-29:47
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:28:13-59
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:29:13-44
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:27:13-44
+activity#com.rtu.gymforbeginners.ExcerciseActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:30:9-33:47
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:32:13-61
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:33:13-44
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:31:13-46
+activity#com.rtu.gymforbeginners.LoginActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:34:9-51
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:34:19-48
+activity#com.rtu.gymforbeginners.AddWorkoutActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:35:9-38:47
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:37:13-63
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:36:13-47
+activity#com.rtu.gymforbeginners.utils.CategoryExActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:39:9-42:47
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:41:13-63
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:40:13-53
+activity#com.rtu.gymforbeginners.ExcerciseListActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:43:9-46:47
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:45:13-66
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:46:13-44
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:44:13-50
+activity#com.rtu.gymforbeginners.RegisterActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:47:9-50:47
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:49:13-60
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:50:13-44
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:48:13-45
+activity#com.rtu.gymforbeginners.EditProfileActivity
+ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:51:9-54:56
+	android:label
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:53:13-64
+	android:theme
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml:52:13-48
+uses-sdk
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\0853e4b5cc23e9968809ff96838d87f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\0853e4b5cc23e9968809ff96838d87f5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.1.aar\a224f82fc59cae5afe9a5df583a09290\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:mediarouter-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\mediarouter-v7-27.1.1.aar\a224f82fc59cae5afe9a5df583a09290\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\01b4588c45b8e786b736927683ec18b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\01b4588c45b8e786b736927683ec18b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\97a338815ef6ab4c8883321a37d504b1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\97a338815ef6ab4c8883321a37d504b1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\12ea6bbd3cb79a531077ce52c87ce50f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\12ea6bbd3cb79a531077ce52c87ce50f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\7b292443f35b8c1b4a1f11667dc8ba97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\7b292443f35b8c1b4a1f11667dc8ba97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\9f958293132263e57fb15d5a97749331\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\gridlayout-v7-27.1.1.aar\9f958293132263e57fb15d5a97749331\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\56adba0f49a19a01d7c453535742c9aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\56adba0f49a19a01d7c453535742c9aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\068e6a050f26df0baa2d91c6318e0981\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\068e6a050f26df0baa2d91c6318e0981\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\58c4ff2473de1939ce34700be4682eec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\58c4ff2473de1939ce34700be4682eec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\40872898825166f89faf00d3ae1ba24d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\40872898825166f89faf00d3ae1ba24d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\a87855633eabb4e42de750fcd6370645\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\palette-v7-27.1.1.aar\a87855633eabb4e42de750fcd6370645\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7127476920fd05113495ca0719833c42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7127476920fd05113495ca0719833c42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fca4a99cce721c7561974adef4127ce7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fca4a99cce721c7561974adef4127ce7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\64f2920d977a7307897c9e1b9dd09881\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\64f2920d977a7307897c9e1b9dd09881\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ce42f9f1071f68f6fa68495bd032f386\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\ce42f9f1071f68f6fa68495bd032f386\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c8997a58a2a7e93c38ca90c93bbb8dc8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c8997a58a2a7e93c38ca90c93bbb8dc8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\67caa550386aed24b55607029b816127\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\67caa550386aed24b55607029b816127\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\0787e13960036007ff5ce8d230084584\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\0787e13960036007ff5ce8d230084584\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\07d39e046fec539ff64d3061d0d1e3c6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\07d39e046fec539ff64d3061d0d1e3c6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cf65944f9688f65b383e2bb708841d84\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\hecto\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\cf65944f9688f65b383e2bb708841d84\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\AndroidManifest.xml

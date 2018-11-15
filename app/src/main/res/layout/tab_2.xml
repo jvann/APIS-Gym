@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/category_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="false"
+                android:text="ARMS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/category_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="CHEST"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="30sp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/category_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="ABS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="30sp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <Button
+                android:id="@+id/category_4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="BACK"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="30sp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/category_5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="SHOULDER"
+                android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="18sp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <Button
+                android:id="@+id/category_6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="LEGS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="30sp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/category_7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="ALL"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+                android:textColor="@color/ColorPrimaryDark"
+                android:textSize="30sp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

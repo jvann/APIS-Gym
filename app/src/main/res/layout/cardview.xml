@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="2dp">
+
+        <RelativeLayout
+            android:id="@+id/cv_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/wo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Workout Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/ColorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/wo_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wo_title"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Day"
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/wo_day"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:src="@drawable/workout_details" />
+
+            <TextView
+                android:id="@+id/wo_reps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wo_day"
+                android:layout_toEndOf="@id/imageView"
+                android:layout_toRightOf="@id/imageView"
+                android:gravity="top"
+                android:text="# Repetitions"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/ColorPrimaryDark" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

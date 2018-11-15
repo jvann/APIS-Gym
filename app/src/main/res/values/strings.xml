@@ -1,0 +1,320 @@
+<resources>
+    <string name="app_name">Material Design</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Toolbar titles -->
+    <string name="toolbar_title_home">Home</string>
+    <string name="toolbar_title_explore">Explore</string>
+    <string name="other_activity">Other Activity</string>
+
+    <!-- Toolbar titles -->
+    <string-array name="weekdays_list">
+        <item>"Any"</item>
+        <item>"Monday"</item>
+        <item>"Tuesday"</item>
+        <item>"Wednesday"</item>
+        <item>"Thursday"</item>
+        <item>"Friday"</item>
+        <item>"Saturday"</item>
+        <item>"Sunday"</item>
+    </string-array>
+
+    <!-- Navigation Drawer -->
+    <string name="nav_drawer_item_home">Home</string>
+    <string name="nav_drawer_item_explore">Explore</string>
+    <string name="nav_drawer_help_and_feedback"><![CDATA[Help & feedback]]></string>
+    <string name="nav_drawer_about">About</string>
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+    <string name="tag_nav_drawer_special_entry">nav_drawer_special_entry</string>
+    <string name="tools_text_account_information_username">Username</string>
+    <string name="tools_text_account_information_email">user@mail.com</string>
+
+    <!-- Typeface names -->
+    <string name="typeface_roboto_regular">Roboto-Regular</string>
+    <string name="typeface_roboto_medium">Roboto-Medium</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_excercise">ExcerciseActivity</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_add_workout">AddWorkoutActivity</string>
+    <string name="title_activity_category_ex">CategoryExActivity</string>
+    <string name="title_activity_excercise_list">ExcerciseListActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_ex_list">ExListActivity</string>
+
+    <!-- Chest -->
+    <string name="barbell_bench_press">
+        "Instructions:\n\n"
+        "1. Lie back on a flat bench. Using a medium width grip, lift the bar from the rack and hold "
+        "it straight over you with your arms locked. This will be your starting position.\n\n"
+        "2. From the starting position, breathe in and begin coming down slowly until the bar "
+        "touches your middle chest.\n\n"
+        "3. After a brief pause, push the bar back to the starting position as you breathe out. Focus "
+        "on pushing the bar using your chest muscles. Lock your arms and squeeze your chest in the "
+        "contracted position at the top of the motion, hold for a second and then start coming down "
+        "slowly again. Tip: Ideally, lowering the weight should take about twice as long as raising it.\n\n"
+        "4.Repeat the movement for the prescribed amount of repetitions.\n\n"
+        "5. When you are done, place the bar back in the rack.\n\n"
+    </string>
+
+    <string name="dumbbell_flyes">
+        "Instructions:\n\n"
+        "1. Lie down on a flat bench with a dumbbell on each hand resting on top of your thighs. "
+        "The palms of your hand will be facing each other.\n\n"
+        "2. Then using your thighs to help raise the dumbbells, lift the dumbbells one at a time "
+        "so you can hold them in front of you at shoulder width with the palms of your hands "
+        "facing each other. Raise the dumbbells up like you're pressing them but stop and hold "
+        "just before you lock out. This will be your starting position.\n\n"
+        "3. With a slight bend on your elbows to prevent stress at the biceps tendon, lower your "
+        "arms out at both sides in a wide arc until you feel a stretch on your chest. Breathe in "
+        "as you perform this portion of the movement. Tip: Keep in mind that throughout the "
+        "movement, the arms should remain stationary; the movement should only occur at the "
+        "shoulder joint.\n\n"
+        "4.	Return your arms back to the starting position as you squeeze your chest muscles and "
+        "breathe out. Tip: Make sure to use the same arc of motion used to lower the weights.\n\n"
+        "5. Hold for a second at the contracted position and repeat the movement for the prescribed "
+        "amount of repetitions.\n\n"
+    </string>
+
+    <!-- Back -->
+    <string name="wide_grip_lat_pulldown">
+        "Instructions:\n\n"
+        "1. Sit down on a pull-down machine with a wide bar attached to the top pulley. Make "
+        "sure that you adjust the knee pad of the machine to fit your height. These pads will "
+        "prevent your body from being raised by the resistance attached to the bar.\n\n"
+        "2. Grab the bar with the palms facing forward using the prescribed grip. Note on grips: "
+        "For a wide grip, your hands need to be spaced out at a distance wider than shoulder width. "
+        "For a medium grip, your hands need to be spaced out at a distance equal to your shoulder "
+        "width and for a close grip at a distance smaller than your shoulder width.\n\n"
+        "3. As you have both arms extended in front of you holding the bar at the chosen grip "
+        "width, bring your torso back around 30 degrees or so while creating a curvature on your "
+        "lower back and sticking your chest out. This is your starting position.\n\n"
+        "4.	As you breathe out, bring the bar down until it touches your upper chest by drawing the "
+        "shoulders and the upper arms down and back. Tip: Concentrate on squeezing the back muscles "
+        "once you reach the full contracted position. The upper torso should remain stationary and "
+        "only the arms should move. The forearms should do no other work except for holding the bar; "
+        "therefore, do not try to pull down the bar using the forearms.\n\n"
+        "5. After a second at the contracted position squeezing your shoulder blades together, "
+        "slowly raise the bar back to the starting position when your arms are fully extended and "
+        "the lats are fully stretched. Inhale during this portion of the movement.\n\n"
+        "6. Repeat this motion for the prescribed amount of repetitions.\n\n"
+    </string>
+
+    <string name="elevated_cable_rows">
+        "Instructions:\n\n"
+        "1. Place it on the seat of the cable row machine.\n\n"
+        "2. Sit down on the machine and place your feet on the front platform or crossbar "
+        "provided making sure that your knees are slightly bent and not locked.\n\n"
+        "3. Lean over as you keep the natural alignment of your back and grab the V-bar handles.\n\n"
+        "4. With your arms extended pull back until your torso is at a 90-degree angle from "
+        "your legs. Your back should be slightly arched, and your chest should be sticking out. You "
+        "should be feeling a nice stretch on your lats as you hold the bar in front of you. This is "
+        "the starting position of the exercise.\n\n"
+        "5. Keeping the torso stationary, pull the handles back towards your torso while keeping "
+        "the arms close to it until you touch the abdominals. Breathe out as you perform that "
+        "movement. At that point you should be squeezing your back muscles hard. Hold that contraction "
+        "for a second and slowly go back to the original position while breathing in.\n\n"
+        "6. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <!-- Arms -->
+    <string name="dips">
+        "Instructions:\n\n"
+        "1. To get into the starting position, hold your body at arm's length with your arms nearly "
+        "locked above the bars.\n\n"
+        "2. Now, inhale and slowly lower yourself downward. Your torso should remain upright and "
+        "your elbows should stay close to your body. This helps to better focus on tricep involvement. "
+        "Lower yourself until there is a 90-degree angle formed between the upper arm and forearm.\n\n"
+        "3. Then, exhale and push your torso back up using your triceps to bring your body back to "
+        "the starting position.\n\n"
+        "4. Repeat the movement for the prescribed amount of repetitions.\n\n"
+    </string>
+
+    <string name="triceps_pushdown">
+        "Instructions:\n\n"
+        "1. Attach a straight or angled bar to a high pulley and grab with an overhand grip "
+        "(palms facing down) at shoulder width.\n\n"
+        "2. Standing upright with the torso straight and a very small inclination forward, bring "
+        "the upper arms close to your body and perpendicular to the floor. The forearms should be "
+        "pointing up towards the pulley as they hold the bar. This is your starting position.\n\n"
+        "3. Using the triceps, bring the bar down until it touches the front of your thighs and the "
+        "arms are fully extended perpendicular to the floor. The upper arms should always remain "
+        "stationary next to your torso and only the forearms should move. Exhale as you perform this "
+        "movement.\n\n"
+        "4. After a second hold at the contracted position, bring the bar slowly up to the starting "
+        "point. Breathe in as you perform this step.\n\n"
+        "5. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <string name="barbell_curl">
+        "Instructions:\n\n"
+        "1. Stand up with your torso upright while holding a barbell at a shoulder-width grip. "
+        "The palm of your hands should be facing forward, and the elbows should be close to the torso. "
+        "This will be your starting position\n\n"
+        "2. While holding the upper arms stationary, curl the weights forward while contracting "
+        "the biceps as you breathe out. Tip: Only the forearms should move.\n\n"
+        "3. Continue the movement until your biceps are fully contracted and the bar is at shoulder "
+        "level. Hold the contracted position for a second and squeeze the biceps hard.\n\n"
+        "4. Slowly begin to bring the bar back to starting position as your breathe in.\n\n"
+        "5. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <string name="dumbbell_bicep_curl">
+        "Instructions:\n\n"
+        "1. Stand up straight with a dumbbell in each hand at arm's length. Keep your elbows close "
+        "to your torso and rotate the palms of your hands until they are facing forward. This will "
+        "be your starting position.\n\n"
+        "2. Now, keeping the upper arms stationary, exhale and curl the weights while contracting "
+        "your biceps. Continue to raise the weights until your biceps are fully contracted and the "
+        "dumbbells are at shoulder level. Hold the contracted position for a brief pause as you "
+        "squeeze your biceps.\n\n"
+        "3. Then, inhale and slowly begin to lower the dumbbells back to the starting position.\n\n"
+        "4. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <!-- Shoulder -->
+    <string name="seated_barbell_press">
+        "Instructions:\n\n"
+        "1. Sit on a Military Press Bench with a bar behind your head and either have a spotter "
+        "give you the bar (better on the rotator cuff this way) or pick it up yourself carefully "
+        "with a pronated grip (palms facing forward). Tip: Your grip should be wider than shoulder "
+        "width and it should create a 90-degree angle between the forearm and the upper arm as the "
+        "barbell goes down.\n\n"
+        "2. Once you pick up the barbell with the correct grip length, lift the bar up over your "
+        "head by locking your arms. Hold at about shoulder level and slightly in front of your head. "
+        "This is your starting position.\n\n"
+        "3. Lower the bar down to the collarbone slowly as you inhale.\n\n"
+        "4. Lift the bar back up to the starting position as you exhale.\n\n"
+        "5. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <string name="power_partials">
+        "Instructions:\n\n"
+        "1. Stand up with your torso upright and a dumbbell on each hand being held at arm’s length. "
+        "The elbows should be close to the torso.\n\n"
+        "2. The palms of the hands should be facing your torso. Your feet should be about shoulder "
+        "width apart. This will be your starting position.\n\n"
+        "3. Keeping your arms straight and the torso stationary, lift the weights out to your sides "
+        "until they are about shoulder level height while exhaling.\n\n"
+        "4. Feel the contraction for a second and begin to lower the weights back down to the starting "
+        "position while inhaling. Tip: Keep the palms facing down with the little finger slightly higher "
+        "while lifting and lowering the weights as it will concentrate the stress on your shoulders"
+        "mainly.\n\n"
+        "5. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <!-- Abs -->
+    <string name="decline_crunch">
+        "Instructions:\n\n"
+        "1. Secure your legs at the end of the decline bench and lie down.\n\n"
+        "2. Now place your hands lightly on either side of your head keeping your elbows in. Tip: "
+        "Don't lock your fingers behind your head.\n\n"
+        "3. While pushing the small of your back down in the bench to better isolate your abdominal "
+        "muscles, begin to roll your shoulders off it.\n\n"
+        "4. Continue to push down as hard as you can with your lower back as you contract your "
+        "abdominals and exhale. Your shoulders should come up off the bench only about four inches, "
+        "and your lower back should remain on the bench. At the top of the movement, contract your "
+        "abdominals hard and keep the contraction for a second. Tip: Focus on slow, controlled "
+        "movement - don't cheat yourself by using momentum.\n\n"
+        "5. After the one second contraction, begin to come down slowly again to the starting "
+        "position as you inhale.\n\n"
+        "6. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <string name="leg_raise_parrallel_bars">
+        "Instructions:\n\n"
+        "1. Position your body on the vertical leg raise bench so that your forearms are resting "
+        "on the pads next to the torso and holding on to the handles. Your arms will be bent at a "
+        "90-degree angle.\n\n"
+        "2. The torso should be straight with the lower back pressed against the pad of the machine "
+        "and the legs extended pointing towards the floor. This will be your starting position.\n\n"
+        "3. Now as you breathe out, lift your legs up as you keep them extended. Continue this "
+        "movement until your legs are roughly parallel to the floor and then hold the contraction for "
+        "a second. Tip: Do not use any momentum or swinging as you perform this exercise.\n\n"
+        "4. Slowly go back to the starting position as you breathe in.\n\n"
+        "5. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+
+    <!-- Legs -->
+    <string name="leg_press">
+        "Instructions:\n\n"
+        "1. Using a leg press machine, sit down on the machine and place your legs on the platform "
+        "directly in front of you at a medium (shoulder width) foot stance. (Note: For the purposes "
+        "of this discussion we will use the medium stance described above which targets overall "
+        "development; however, you can choose any of the three stances described in the foot "
+        "positioning section).\n\n"
+        "2. Lower the safety bars holding the weighted platform in place and press the platform all "
+        "the way up until your legs are fully extended in front of you. Tip: Make sure that you do "
+        "not lock your knees. Your torso and the legs should make a perfect 90-degree angle. This "
+        "will be your starting position.\n\n"
+        "3. As you inhale, slowly lower the platform until your upper and lower legs make a "
+        "90-degree angle.\n\n"
+        "4. Pushing mainly with the heels of your feet and using the quadriceps go back to the "
+        "starting position as you exhale.\n\n"
+        "5. Repeat for the recommended amount of repetitions and ensure to lock the safety pins "
+        "properly once you are done. You do not want that platform falling on you fully loaded.\n\n"
+    </string>
+
+    <string name="barbell_squat">
+        "Instructions:\n\n"
+        "1. This exercise is best performed inside a squat rack for safety purposes. To begin, first "
+        "set the bar on a rack just above shoulder level. Once the correct height is chosen and the "
+        "bar is loaded, step under the bar and place the back of your shoulders (slightly below the "
+        "neck) across it.\n\n"
+        "2. Hold on to the bar using both arms at each side and lift it off the rack by first "
+        "pushing with your legs and at the same time straightening your torso.\n\n"
+        "3. Step away from the rack and position your legs using a shoulder-width medium stance with "
+        "the toes slightly pointed out. Keep your head up always and maintain a straight back. This "
+        "will be your starting position.\n\n"
+        "4. Begin to slowly lower the bar by bending the knees and sitting back with your hips as you "
+        "maintain a straight posture with the head up. Continue down until your hamstrings are on your "
+        "calves. Inhale as you perform this portion of the movement.\n\n"
+        "5. Begin to raise the bar as you exhale by pushing the floor with the heel or middle of your "
+        "foot as you straighten the legs and extend the hips to go back to the starting position.\n\n"
+        "6. Repeat for the recommended amount of repetitions.\n\n"
+    </string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+
+</resources>

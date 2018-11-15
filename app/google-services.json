@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "260532327567",
+    "firebase_url": "https://gymforbeginners.firebaseio.com",
+    "project_id": "gymforbeginners",
+    "storage_bucket": "gymforbeginners.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260532327567:android:25551170862b6c86",
+        "android_client_info": {
+          "package_name": "com.rtu.gymforbeginners"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260532327567-il3j8tdo4eoujo67csc3svhjd0n8d9n4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2UO19mnaB1UnF3oWd_64VlcKXcMbmcbM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
