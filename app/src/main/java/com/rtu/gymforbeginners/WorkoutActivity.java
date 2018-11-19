@@ -38,7 +38,7 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
+
         setContentView(R.layout.activity_workout);
         listView = findViewById(R.id.routine_listview);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_ex);
@@ -96,27 +96,6 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
     }
 
     private void initializeData(){
-
-
-        Log.v("AAAA", "AAAAAAAAAA");
-        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
-
-        database.child("Ejercicios").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                for (DataSnapshot noteDataSnapshot : dataSnapshot.getChildren()) {
-                    Excercise note = noteDataSnapshot.getValue(Excercise.class);
-                    System.out.print(note.getName());
-                    Log.v("AA", "German");
-                    allExcercises.add(note);
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError error) {
-            }
-
-        });
 
 
         allExcercises.add(new Excercise("Dips",3, 6,"Triceps",

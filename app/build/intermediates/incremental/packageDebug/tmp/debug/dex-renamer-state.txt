@@ -1,4 +1,4 @@
-#Sun Nov 18 22:42:49 CST 2018
+#Mon Nov 19 13:27:26 CST 2018
 base.0=/Users/German/StudioProjects/APIS-Gym/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

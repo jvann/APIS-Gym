@@ -9,6 +9,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,11 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.rtu.gymforbeginners.AddWorkoutActivity;
 import com.rtu.gymforbeginners.BuildConfig;
 import com.rtu.gymforbeginners.ExcerciseActivity;
@@ -28,13 +34,13 @@ import com.rtu.gymforbeginners.classes.RVAdapter;
 import com.rtu.gymforbeginners.classes.Workout;
 
 /**
- * Created by Edwin on 15/02/2015.
  */
 
 public class Tab1 extends Fragment {
 
     private List<Workout> workouts = new ArrayList<>();
     private RecyclerView rv;
+    FirebaseDatabase database;
     FloatingActionButton newWorkout;
     RVAdapter adapter;
     ArrayList<Excercise> exMonday = new ArrayList<>();
@@ -72,57 +78,54 @@ public class Tab1 extends Fragment {
 
     private void initializeData(){
 
-        exMonday.add(new Excercise("Barbell Bench Press",3, 6,"Chest",
-                "Shoulders, Triceps","Barbell, Bench","Strenght",getString(R.string.barbell_bench_press),
-                getResources().getIdentifier("barbell_bench_press", "drawable", BuildConfig.APPLICATION_ID)));
-        exMonday.add(new Excercise("Dumbbell Flyes",3, 6,"Chest",
-                "Shoulders","Dumbbell","Strenght",getString(R.string.dumbbell_flyes),
-                getResources().getIdentifier("dumbell_flyes", "drawable",BuildConfig.APPLICATION_ID)));
-       exMonday.add(new Excercise("Barbell Curl",3, 6, "Biceps",
-                "None","Barbell","Strenght",getString(R.string.barbell_curl),
-                getResources().getIdentifier("barbell_curl", "drawable",BuildConfig.APPLICATION_ID)));
-        exMonday.add(new Excercise("Dumbbell Bicep Curl",2, 6, "Biceps",
-                "None","Dumbbell","Strenght",getString(R.string.dumbbell_bicep_curl),
-                getResources().getIdentifier("dumbell_bicep_curl", "drawable",BuildConfig.APPLICATION_ID)));
+        database.getReference().child("excercise").addListenerForSingleValueEvent(new ValueEventListener() {
 
-        exTuesday.add(new Excercise("Leg Press",3, 6,"Legs",
-                "None","Leg Press Machine","Strenght",getString(R.string.leg_press),
-                getResources().getIdentifier("leg_press", "drawable",BuildConfig.APPLICATION_ID)));
-        exTuesday.add(new Excercise("Barbell Squat",3, 6,"Legs",
-                "Lower Back","Squat Rack","Strenght",getString(R.string.barbell_squat),
-                getResources().getIdentifier("barbell_squat", "drawable",BuildConfig.APPLICATION_ID)));
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
 
-        exThursday.add(new Excercise("Seated Barbell Press",3, 6,"Shoulders",
-                "Trapezius","Barbell","Strenght",getString(R.string.seated_barbell_press),
-                getResources().getIdentifier("seated_barbell_press", "drawable",BuildConfig.APPLICATION_ID)));
-        exThursday.add(new Excercise("Power Partials",3, 6,"Shoulders",
-                "Trapezius","Dumbbell","Strenght",getString(R.string.power_partials),
-                getResources().getIdentifier("power_partials", "drawable",BuildConfig.APPLICATION_ID)));
-        exThursday.add(new Excercise("Decline Crunch",3, 6,"Abdominals",
-                "Lower Back, Core","Decline Bench","Strenght",getString(R.string.decline_crunch),
-                getResources().getIdentifier("decline_crunch", "drawable",BuildConfig.APPLICATION_ID)));
-        exThursday.add(new Excercise("Leg Raise on Parallel Bars",4, 10,"Abdominals",
-                "Lower Back","Vertical Leg Raise Bench","Strenght",getString(R.string.leg_raise_parrallel_bars),
-                getResources().getIdentifier("leg_raise_parallel_bars", "drawable",BuildConfig.APPLICATION_ID)));
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Excercise exercise = snapshot.getValue(Excercise.class);
 
-        exFriday.add(new Excercise("Wide-Grip Lat Pulldown",3, 6,"Back",
-                "Biceps","Machine","Strenght",getString(R.string.wide_grip_lat_pulldown),
-                getResources().getIdentifier("wide_grip_lat_pulldown", "drawable",BuildConfig.APPLICATION_ID)));
-        exFriday.add(new Excercise("Elevated Cable Rows",3, 6,"Back",
-                "Biceps","Machine","Strenght",getString(R.string.elevated_cable_rows),
-                getResources().getIdentifier("elevated_cable_rows", "drawable",BuildConfig.APPLICATION_ID)));
-        exFriday.add(new Excercise("Barbell Curl",3, 6, "Biceps",
-                "None","Barbell","Strenght",getString(R.string.barbell_curl),
-                getResources().getIdentifier("barbell_curl", "drawable",BuildConfig.APPLICATION_ID)));
-        exFriday.add(new Excercise("Dumbbell Bicep Curl",2, 6, "Biceps",
-                "None","Dumbbell","Strenght",getString(R.string.dumbbell_bicep_curl),
-                getResources().getIdentifier("dumbell_bicep_curl", "drawable",BuildConfig.APPLICATION_ID)));
+                    switch (exercise.getMainMuscle()){
+                        case "Triceps":
+                        case "Biceps":
+                            exMonday.add(exercise);
+                            break;
+                        case "Legs":
+                            exThursday.add(exercise);
+                            break;
+                        case "Chest":
+                            exThursday.add(exercise);
+                            break;
+                        case "Shoulders":
+                            exTuesday.add(exercise);
+                            break;
+                        case "Abdominals":
+                            exFriday.add(exercise);
+                            break;
+                        case "Back":
+                            exTuesday.add(exercise);
+                            break;
+                    }
 
 
-        workouts.add(new Workout("Chest and Triceps", "Monday", exMonday.size(), exMonday));
-        workouts.add(new Workout("Legs", "Tuesday", exTuesday.size(), exTuesday));
-        workouts.add(new Workout("Shoulder, Abs", "Thursday", exTuesday.size(), exThursday));
-        workouts.add(new Workout("Back, Biceps", "Friday", exFriday.size(), exFriday));
+                }
+            }
+            @Override
+            public void onCancelled(DatabaseError error) {
+                Log.v("Error", "German");
+
+            }
+
+        });
+
+
+        Log.v("e", String.valueOf(exMonday.size()));
+
+        workouts.add(new Workout("Biceps and Tricep", "Monday", 4, exMonday));
+        workouts.add(new Workout("Shoulders and Back", "Tuesday", 4, exTuesday));
+        workouts.add(new Workout("Chest and Legs", "Thursday", 4, exThursday));
+        workouts.add(new Workout("Abs", "Friday", 2, exFriday));
     }
 
     private void initializeAdapter(){

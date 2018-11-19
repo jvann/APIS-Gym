@@ -34,11 +34,13 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
- * Created by Edwin on 15/02/2015.
+ *
  */
 public class Tab2 extends Fragment implements View.OnClickListener{
 
+    FirebaseDatabase database;
     ArrayList<Excercise> exArm = new ArrayList<>();
     ArrayList<Excercise> exChest = new ArrayList<>();
     ArrayList<Excercise> exLeg = new ArrayList<>();
@@ -126,20 +128,38 @@ public class Tab2 extends Fragment implements View.OnClickListener{
     private void initializeData(){
 
         Log.v("AAAA", "AAAAAAAAAA");
-        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
 
-        database.child("excercise").addValueEventListener(new ValueEventListener() {
+        database.getReference().child("excercise").addListenerForSingleValueEvent(new ValueEventListener() {
 
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
-                Log.v("GVP", "German");
-                Log.v("num", dataSnapshot.toString());
 
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
-                    Excercise note = snapshot.getValue(Excercise.class);
-                    Log.v("Hi", note.getName());
-                    Log.v("AA", "German");
-                    exAll.add(note);
+                    Excercise exercise = snapshot.getValue(Excercise.class);
+
+                    switch (exercise.getMainMuscle()){
+                        case "Triceps":
+                        case "Biceps":
+                            exArm.add(exercise);
+                            break;
+                        case "Legs":
+                            exLeg.add(exercise);
+                            break;
+                        case "Chest":
+                            exChest.add(exercise);
+                            break;
+                        case "Shoulders":
+                            exShoulder.add(exercise);
+                            break;
+                        case "Abdominals":
+                            exAbs.add(exercise);
+                            break;
+                        case "Back":
+                            exBack.add(exercise);
+                            break;
+                    }
+
+                    exAll.add(exercise);
                 }
             }
             @Override
@@ -149,57 +169,6 @@ public class Tab2 extends Fragment implements View.OnClickListener{
             }
 
         });
-
-        exAll.add(new Excercise("Dips",3, 6,"Triceps",
-                "Chest","Dip Station","Strenght", getString(R.string.dips),
-                getResources().getIdentifier("dips", "drawable",BuildConfig.APPLICATION_ID)));
-        exArm.add(new Excercise("Dips",3, 6,"Triceps",
-                "Chest","Dip Station","Strenght", getString(R.string.dips),
-                getResources().getIdentifier("dips", "drawable",BuildConfig.APPLICATION_ID)));
-        exArm.add(new Excercise("Triceps Pushdown",3, 6,"Triceps",
-                "None","Cable Pulley Station","Strenght",getString(R.string.triceps_pushdown),
-                getResources().getIdentifier("tricep_pushdown", "drawable",BuildConfig.APPLICATION_ID)));
-        exArm.add(new Excercise("Barbell Curl",3, 6, "Biceps",
-                "None","Barbell","Strenght",getString(R.string.barbell_curl),
-                getResources().getIdentifier("barbell_curl", "drawable",BuildConfig.APPLICATION_ID)));
-        exArm.add(new Excercise("Dumbbell Bicep Curl",2, 6, "Biceps",
-                "None","Dumbbell","Strenght",getString(R.string.dumbbell_bicep_curl),
-                getResources().getIdentifier("dumbell_bicep_curl", "drawable",BuildConfig.APPLICATION_ID)));
-
-        exLeg.add(new Excercise("Leg Press",3, 6,"Legs",
-                "None","Leg Press Machine","Strenght",getString(R.string.leg_press),
-                getResources().getIdentifier("leg_press", "drawable",BuildConfig.APPLICATION_ID)));
-        exLeg.add(new Excercise("Barbell Squat",3, 6,"Legs",
-                "Lower Back","Squat Rack","Strenght",getString(R.string.barbell_squat),
-                getResources().getIdentifier("barbell_squat", "drawable",BuildConfig.APPLICATION_ID)));
-
-        exChest.add(new Excercise("Barbell Bench Press",3, 6,"Chest",
-                "Shoulders, Triceps","Barbell, Bench","Strenght",getString(R.string.barbell_bench_press),
-                getResources().getIdentifier("barbell_bench_press", "drawable",BuildConfig.APPLICATION_ID)));
-        exChest.add(new Excercise("Dumbbell Flyes",3, 6,"Chest",
-                "Shoulders","Dumbbell","Strenght",getString(R.string.dumbbell_flyes),
-                getResources().getIdentifier("dumbell_flyes", "drawable",BuildConfig.APPLICATION_ID)));
-
-        exShoulder.add(new Excercise("Seated Barbell Press",3, 6,"Shoulders",
-                "Trapezius","Barbell","Strenght",getString(R.string.seated_barbell_press),
-                getResources().getIdentifier("seated_barbell_press", "drawable",BuildConfig.APPLICATION_ID)));
-        exShoulder.add(new Excercise("Power Partials",3, 6,"Shoulders",
-                "Trapezius","Dumbbell","Strenght",getString(R.string.power_partials),
-                getResources().getIdentifier("power_partials", "drawable",BuildConfig.APPLICATION_ID)));
-
-        exAbs.add(new Excercise("Decline Crunch",3, 6,"Abdominals",
-                "Lower Back, Core","Decline Bench","Strenght",getString(R.string.decline_crunch),
-                getResources().getIdentifier("decline_crunch", "drawable",BuildConfig.APPLICATION_ID)));
-        exAbs.add(new Excercise("Leg Raise on Parallel Bars",4, 10,"Abdominals",
-                "Lower Back","Vertical Leg Raise Bench","Strenght",getString(R.string.leg_raise_parrallel_bars),
-                getResources().getIdentifier("leg_raise_parallel_bars", "drawable",BuildConfig.APPLICATION_ID)));
-
-        exBack.add(new Excercise("Wide-Grip Lat Pulldown",3, 6,"Back",
-                "Biceps","Machine","Strenght",getString(R.string.wide_grip_lat_pulldown),
-                getResources().getIdentifier("wide_grip_lat_pulldown", "drawable",BuildConfig.APPLICATION_ID)));
-        exBack.add(new Excercise("Elevated Cable Rows",3, 6,"Back",
-                "Biceps","Machine","Strenght",getString(R.string.elevated_cable_rows),
-                getResources().getIdentifier("elevated_cable_rows", "drawable",BuildConfig.APPLICATION_ID)));
 
     }
 }
