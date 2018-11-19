@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,11 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.rtu.gymforbeginners.BuildConfig;
 import com.rtu.gymforbeginners.ExcerciseActivity;
 import com.rtu.gymforbeginners.ExcerciseListActivity;
@@ -108,6 +114,8 @@ public class Tab2 extends Fragment implements View.OnClickListener{
                 break;
             case R.id.category_7:
                 Intent i7 = new Intent(getContext(), ExcerciseListActivity.class);
+                System.out.print("GVP");
+                Log.v("E", "hola");
                 i7.putExtra("exList", exAll);
                 i7.putExtra("is_add",false);
                 getContext().startActivity(i7);
@@ -116,6 +124,35 @@ public class Tab2 extends Fragment implements View.OnClickListener{
     }
 
     private void initializeData(){
+
+        Log.v("AAAA", "AAAAAAAAAA");
+        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+
+        database.child("excercise").addValueEventListener(new ValueEventListener() {
+
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                Log.v("GVP", "German");
+                Log.v("num", dataSnapshot.toString());
+
+                for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
+                    Excercise note = snapshot.getValue(Excercise.class);
+                    Log.v("Hi", note.getName());
+                    Log.v("AA", "German");
+                    exAll.add(note);
+                }
+            }
+            @Override
+            public void onCancelled(DatabaseError error) {
+                Log.v("Error", "German");
+
+            }
+
+        });
+
+        exAll.add(new Excercise("Dips",3, 6,"Triceps",
+                "Chest","Dip Station","Strenght", getString(R.string.dips),
+                getResources().getIdentifier("dips", "drawable",BuildConfig.APPLICATION_ID)));
         exArm.add(new Excercise("Dips",3, 6,"Triceps",
                 "Chest","Dip Station","Strenght", getString(R.string.dips),
                 getResources().getIdentifier("dips", "drawable",BuildConfig.APPLICATION_ID)));

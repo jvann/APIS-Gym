@@ -78,6 +78,7 @@ public class ScrimInsetsFrameLayout extends FrameLayout {
 
     @Override
     public void draw(Canvas canvas) {
+        System.out.print("Hi");
         super.draw(canvas);
 
         int width = getWidth();
@@ -102,7 +103,7 @@ public class ScrimInsetsFrameLayout extends FrameLayout {
             mInsetForeground.draw(canvas);
 
             // Right
-            mTempRect.set(width - mInsets.right, mInsets.top, width, height - mInsets.bottom);
+            mTempRect.set(width - mInsets.right , mInsets.top, width, height - mInsets.bottom);
             mInsetForeground.setBounds(mTempRect);
             mInsetForeground.draw(canvas);
 

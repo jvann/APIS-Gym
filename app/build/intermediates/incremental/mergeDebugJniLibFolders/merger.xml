@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\hecto\AndroidStudioProjects\GymNewbie\app\src\debug\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/German/StudioProjects/APIS-Gym/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/German/StudioProjects/APIS-Gym/app/src/debug/jniLibs"/></dataSet></merger>

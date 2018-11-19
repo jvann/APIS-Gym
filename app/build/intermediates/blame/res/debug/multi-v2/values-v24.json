@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hecto\\AndroidStudioProjects\\GymNewbie\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "/Users/German/StudioProjects/APIS-Gym/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hecto\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\ce42f9f1071f68f6fa68495bd032f386\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/German/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/7ef6b599383a3a7e35628a0723b5e0bc/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\hecto\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\01b4588c45b8e786b736927683ec18b2\\res\\values-v24\\values-v24.xml",
+                    "source": "/Users/German/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4d3ee16694fda495c51f002ffef862b7/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

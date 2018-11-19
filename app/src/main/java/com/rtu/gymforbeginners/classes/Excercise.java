@@ -16,6 +16,8 @@ public class Excercise implements Serializable{
     int image;
 
 
+    public Excercise(){}
+
     public Excercise(String name, int sets, int reps, String mainMuscle, String otherMuscles,
                      String equipment, String type, String description, int image){
         this.name = name;

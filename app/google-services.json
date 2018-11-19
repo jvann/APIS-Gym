@@ -1,27 +1,43 @@
 {
   "project_info": {
-    "project_number": "260532327567",
-    "firebase_url": "https://gymforbeginners.firebaseio.com",
-    "project_id": "gymforbeginners",
-    "storage_bucket": "gymforbeginners.appspot.com"
+    "project_number": "750472616518",
+    "firebase_url": "https://gymnewbie-6258d.firebaseio.com",
+    "project_id": "gymnewbie-6258d",
+    "storage_bucket": "gymnewbie-6258d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:260532327567:android:25551170862b6c86",
+        "mobilesdk_app_id": "1:750472616518:android:d616e6899c6428a3",
         "android_client_info": {
-          "package_name": "com.rtu.gymforbeginners"
+          "package_name": "luck.materialdesign.tabsnavigator"
         }
       },
       "oauth_client": [
         {
-          "client_id": "260532327567-il3j8tdo4eoujo67csc3svhjd0n8d9n4.apps.googleusercontent.com",
+          "client_id": "750472616518-kab67v2ci5ubp4j5l7mqbneh1q5k27lp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "luck.materialdesign.tabsnavigator",
+            "certificate_hash": "571a3bf25388605143ab4b158f64cbbe014db374"
+          }
+        },
+        {
+          "client_id": "750472616518-ii0je3stiqav7v1i0u4r1msnlju0fl06.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "luck.materialdesign.tabsnavigator",
+            "certificate_hash": "5acd74fd879d80e6c2f171d9a9a63cc714fecd14"
+          }
+        },
+        {
+          "client_id": "750472616518-civ5gr1uvpeb4pehi2c7ajqc8uh4a1kp.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA2UO19mnaB1UnF3oWd_64VlcKXcMbmcbM"
+          "current_key": "AIzaSyDAhfdwB6Igzk8az20Nuc2FVCKGI2sWhb4"
         }
       ],
       "services": {
@@ -29,8 +45,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750472616518-civ5gr1uvpeb4pehi2c7ajqc8uh4a1kp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2

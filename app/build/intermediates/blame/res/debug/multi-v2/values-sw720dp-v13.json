@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hecto\\AndroidStudioProjects\\GymNewbie\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "/Users/German/StudioProjects/APIS-Gym/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\hecto\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-27.1.1.aar\\a224f82fc59cae5afe9a5df583a09290\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "/Users/German/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-27.1.1.aar/6236f057a1ce22c2873e6cba179ebd80/res/values-sw720dp-v13/values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

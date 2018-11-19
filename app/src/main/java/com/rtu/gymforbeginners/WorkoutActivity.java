@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -14,6 +15,13 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +38,7 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseDatabase.getInstance().setPersistenceEnabled(true);
         setContentView(R.layout.activity_workout);
         listView = findViewById(R.id.routine_listview);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_ex);
@@ -87,6 +96,29 @@ public class WorkoutActivity extends AppCompatActivity implements AdapterView.On
     }
 
     private void initializeData(){
+
+
+        Log.v("AAAA", "AAAAAAAAAA");
+        DatabaseReference database = FirebaseDatabase.getInstance().getReference();
+
+        database.child("Ejercicios").addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                for (DataSnapshot noteDataSnapshot : dataSnapshot.getChildren()) {
+                    Excercise note = noteDataSnapshot.getValue(Excercise.class);
+                    System.out.print(note.getName());
+                    Log.v("AA", "German");
+                    allExcercises.add(note);
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError error) {
+            }
+
+        });
+
+
         allExcercises.add(new Excercise("Dips",3, 6,"Triceps",
                 "Chest","Dip Station","Strenght", getString(R.string.dips),
                 getResources().getIdentifier("dips", "drawable",BuildConfig.APPLICATION_ID)));
